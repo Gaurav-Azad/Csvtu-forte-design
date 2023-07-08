@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+</head>
+<body>
+  <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+
+  <header class="navbar1">
+    <nav class="navbar">
+      <div class="logo">
+        <a href="#"><img src="images/forte-logo.png" alt="Logo"></a>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Shop</a></li>
+        <li><a href="#about_us">About Us</a></li>
+        <li><a href="#">My Acoount</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+      </ul>
+      <button id="modal-btn" class="modal-btn">Login</button>
+      
+    </nav>
+  </header>
+<div class="header-component">
+  <div class="banner_section_top">
+    <div class=" badge_2">
+      <a href="#groceries"> <img  class=" badge1" src="images/rice1.jpeg" alt="Category 1">
+       <p>Groceries</p>
+      </a> 
+     </div>
+    <div class=" badge_2">  
+      <a href=""> <img  class=" badge1" src="images/compost.jpeg" alt="Category 2"> 
+        <p>Organic Fertilizers and Pesticides</p>
+      </a>
+    </div>
+    <div class=" badge_2"> 
+        <a href=""> <img  class=" badge1" src="images/Herbal-Items.jpg" alt="Category 3"> 
+          <p>Herbal and Forest Product</p>
+        </a>
+      </div>
+    <div class=" badge_2">
+       <a href=""> <img  class=" badge1" src="images/cg.jpeg" alt="Category 4">
+         <p>CG Cuisine's</p>
+        </a>
+      </div>
+    <div class=" badge_2"> 
+      <a href=""> <img  class=" badge1" src="images/arts.jpeg" alt="Category 5">
+         <p>Art & Craft of CG</p>
+        </a>
+      </div>
+    <div class=" badge_2">
+       <a href=""> <img  class=" badge1" src="images/rural enterprises.jpeg" alt="Category 6"> 
+        <p>Other Rural Enterprises</p>
+      </a>
+    </div>
+ </div>
+ </div>
+
+ <div class="search-bar">
+  <input type="text" placeholder="Search">
+  <button type="submit">
+    <i class="fa-solid fa-magnifying-glass"></i>
+  </button>
+  <i class="fa-solid fa-heart">Wishlist</i>
+  <i class="fa-solid fa-cart-shopping">Cart</i>
+  </div>
+</div>
+<!-- slider component -->
+<h2 class="text-center ">Our Top Deals</h2>
+<div id="carouselExampleCaptions" class="carousel slide ">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="images/Vishnu-Bhog-with-pack-compressed-300x300.jpg"  alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h2>Vishnu Bhog Rice(1kg)</h2>
+        <h5>60% OFF</h5>
+        <p>Shop Now today</p>
+        <button> <a href="groceries.html">Buy Now</a> </button>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="images/Desi-Cow-Ghee-Mix-Breed-A2-Bilona-Ghee-300x300.jpg"  alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h2>Vishnu Bhog Rice(1kg)</h2>
+        <h5>60% OFF</h5>
+        <p>Shop Now today</p>
+        <button> <a href="groceries.html">Buy Now</a> </button>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="images/imresizer-1685527231155-300x300.jpg"  alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h2>Vishnu Bhog Rice(1kg)</h2>
+        <h5 >60% OFF</h5>
+        <p>Shop Now today</p>
+        <button> <a href="groceries.html">Buy Now</a> </button>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<!-- slider component ends -->
+
+
+<!-- ---------------------------------------------------------- -->
+<!-- product section  start-->
+<!-- ---------------------------------------------------------- -->
+
+
+<!-- Groceries section category 1 -->
+<div id="groceries"></div>
+<div  class="mainss"> 
+  <div class="flex">
+ <h3 >Groceries</h3>
+
+  <button class="button-more">See all</button>
+</div>
+<div class="main"> 
+      <div class="cardss" style="width: 18rem;">
+
+        <img src="images/rice1.jpeg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Organic Rice</h5>
+          
+          <a href="groceries.html" class="btn btn-primary">Buy Now</a>
+        </div>
+        
+      </div>
+        <div class="cardss" style="width: 18rem;">
+
+          <img src="images/organic flours.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Organic Flours</h5>
+            
+            <a href="#" class="btn btn-primary">Buy Now</a>
+          </div>
+          
+        </div>
+          <div class="cardss" style="width: 18rem;">
+
+            <img src="images/organic pulses.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Organic Pulses</h5>
+              
+              <a href="#" class="btn btn-primary">Buy Now</a>
+            </div>
+            
+          </div>
+          <div class="cardss" style="width: 18rem;">
+
+            <img src="images/spices.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Organic Spices</h5>
+              
+              <a href="#" class="btn btn-primary">Buy Now</a>
+            </div>
+            
+            </div>
+            <div class="cardss" style="width: 18rem;">
+
+              <img src="images/cold oils.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Cold Pressed Oils</h5>
+                
+                <a href="#" class="btn btn-primary">Buy Now</a>
+              </div>
+              
+            </div>
+          
+
+</div>
+</div>
+       
+<!--Organic Fertilizers and Pesticides category 2 -->
+<div class="category-shape-deals">
+  <div class="text-section">
+      <h2>Organic Fertilizers and Pesticides</h2>
+      <p class="title-off">20% OFF</p>
+      <p class="description">*offer till 6 july</p>
+      <a href="#" class="btn btn-primary">Buy Now</a>
+  </div>
+  <div class="shape-container">
+    <div class="shape-content">
+       <img src="images/jeevamrit.jpg" alt="">
+      <div class="shape-description" >
+        <h5>Jeevamrit</h5>
+
+        <p> <s>₹200</s> ₹140</p>
+      </div>
+    </div>
+    <div class="shape-content">
+      <img src="images/vermi.jpg" alt="">
+     <div class="shape-description" >
+       <h5>
+        Vermi Compost</h5>
+       <p><s>₹100</s> ₹80</p>
+     </div>
+   </div>
+   <div class="shape-content">
+    <img src="images/Pooranima-Front-1.jpeg" alt="">
+   <div class="shape-description" >
+     <h6>Poornima Cycle Kit – 1 Hector</h6>
+     <p> <s>₹6599</s> ₹5000</p>
+   </div>
+ </div>
+    
+     
+  </div>
+</div>
+
+<!-- Herbal and Forest Product category 3 -->
+<div class="mainss"> 
+  <div class="flex">
+ <h3>Herbal and Forest Product</h3>
+
+  <button class="button-more">See all</button>
+</div>
+<div class="main"> 
+      <div class="cardss" style="width: 18rem;">
+
+        <img src="images/anta acid.jpeg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Natural Anta-acid</h5>
+          <p class="card-text">₹80</p>
+          <a href="#" class="btn btn-primary">Buy Now</a>
+        </div>
+        
+      </div>
+        <div class="cardss" style="width: 18rem;">
+
+          <img src="images/honey.jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Kashmir Honey</h5>
+            <p class="card-text">₹80</p>
+            <a href="#" class="btn btn-primary">Buy Now</a>
+          </div>
+          
+        </div>
+          <div class="cardss" style="width: 18rem;">
+
+            <img src="images/turmeric.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Turmeric Masala</h5>
+              <p class="card-text">₹80</p>
+              <a href="#" class="btn btn-primary">Buy Now</a>
+            </div>
+            
+          </div>
+          <div class="cardss" style="width: 18rem;">
+
+            <img src="images/mahua.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Mahua Laddu</h5>
+              <p class="card-text">₹80</p>
+              <a href="#" class="btn btn-primary">Buy Now</a>
+            </div>
+            
+            </div>
+            <div class="cardss" style="width: 18rem;">
+
+              <img src="images/instant pani.jpeg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Instant Charu Pani mix</h5>
+                <p class="card-text">₹80</p>
+                <a href="#" class="btn btn-primary">Buy Now</a>
+              </div>
+              
+            </div>
+          
+
+</div>
+</div>
+       
+
+<!--CG Cuisine's category 4 -->
+<div class="mainss"> 
+  <div class="flex">
+ <h3>CG Cuisine's</h3>
+
+  <button class="button-more">See all</button>
+</div>
+<div class="main"> 
+      <div class="cardss" style="width: 18rem;">
+
+        <img src="images/katwa.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Katwa</h5>
+          <p class="card-text">₹80</p>
+          <a href="#" class="btn btn-primary">Buy Now</a>
+        </div>
+        
+      </div>
+        <div class="cardss" style="width: 18rem;">
+
+          <img src="images/khurmi.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Khurmi</h5>
+            <p class="card-text">₹80</p>
+            <a href="#" class="btn btn-primary">Buy Now</a>
+          </div>
+          
+        </div>
+          <div class="cardss" style="width: 18rem;">
+
+            <img src="images/saloni.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Saloni</h5>
+              <p class="card-text">₹80</p>
+              <a href="#" class="btn btn-primary">Buy Now</a>
+            </div>
+            
+          </div>
+          <div class="cardss" style="width: 18rem;">
+
+            <img src="images/thethari.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Thethari</h5>
+              <p class="card-text">₹80</p>
+              <a href="#" class="btn btn-primary">Buy Now</a>
+            </div>
+            
+            </div>
+          
+          
+
+</div>
+</div>
+      
+<!-- About section start -->
+<section id="about_us" class="about_section">
+<div class="forte_logo">  <img src="images/forte-logo.png" alt=""> </div>
+<div class="about_text"> 
+  <h3>About Forte Haat</h3>
+  <p>FORTE-HAAT is an e-Commerce and Market Research (e-CMR) Platform of CSVTU-FORTE, designed with the prime objective to promote rural and agro-enterprises of Chhattisgarh state with the concurrent objective of creating an ecosystem to train /promote/support rural and social startups in line with the objects of the CSVTU-FORTE. The Rural Entrepreneurship Development Centres (REDCs) are established in the affiliated institutions of CSVTU Bhilai to nurture and support students with entrepreneurial mindset with a vision of creating and developing an ecosystem focused on holistic rural empowerment through promotion of rural-based startups/ entrepreneurs. FORTE-HAAT will give an opportunity to associated students/alumni, staff, and faculty members of REDCs to get essential exposure, training and support in developing marketing and other essential entrepreneurial skills, in understanding the current market trends and provide detailed market survey reports on the specific products to the prospective entrepreneurs.
+
+    CSVTU-FORTE invites interested Startups/ Self Help Groups (SHGs)/ FPOs /Entrepreneurs /Organizations to join hands as Channel-Partners in this noble initiative of promoting rural enterprises and indigenous Agro-based and Forest/Herbal products through FORTE-HAAT.</p>
+</div>
+</section>
+
+<!-- footer section  start-->
+<footer id="contact" >
+  <div class="footer-container">
+    <div class="footer-section">
+      <h3>About Us</h3>
+      <p>The CSVTU Foundation for Rural Technology and Entrepreneurship (CSVTU-FORTE) is a Section-8 Company (formed under Act -18, of the Companies Act-2013) working under the aegis of CSVTU.</p>
+    </div>
+    <div class="footer-section">
+      <h3>Usefull links</h3>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+    <div class="footer-section">
+      <h3>Contact Us</h3>
+      <p>Address:- UTD Block-II, CSVTU Bhilai Campus, P.O. – Newai, Bhilai, District – Durg (Chhattisgarh) – 491107</p>
+      
+      <p>Email: info@csvtuforte.com</p>
+    
+    </div>
+   
+   
+  </div>
+  <div class="fav-icons">
+    <i class="fa-brands fa-twitter"></i>
+    <i class="fa-brands fa-facebook"></i>
+    <i class="fa-brands fa-instagram"></i>
+    <i class="fa-brands fa-linkedin"></i>
+  </div>
+ 
+</footer>
+<p class="text-center"> Copyright &copy Designed by Gaurav kumar Azad</p>
+
+
+<!-- modal of login page -->
+<div id="modal" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+  
+    <div class="forms-container">
+      <form id="signin-form" class="form">
+        <h3>Sign In</h3>
+        <label for="signin-email">Email:</label>
+        <input type="email" id="signin-email" required>
+        <label for="signin-password">Password:</label>
+        <input type="password" id="signin-password" required>
+        <button type="submit">Sign In</button>
+      </form>
+      <form id="register-form" class="form">
+        <h3>Register</h3>
+        <label for="register-name">Name:</label>
+        <input type="text" id="register-name" required>
+        <label for="register-email">Email:</label>
+        <input type="email" id="register-email" required>
+        <label for="register-password">Password:</label>
+        <input type="password" id="register-password" required>
+        <button type="submit">Register</button>
+      </form>
+    </div>
+  </div>
+</div>
+
+
+
+
+</body>
+</html>

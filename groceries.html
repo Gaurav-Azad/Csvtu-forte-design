@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Groceries</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="product.css">
+</head>
+<body>
+  <script src="script.js"> </script>
+  <!-- -------------------------- -->
+  <!-- navbar -->
+  <!-- ----------------------------->
+  <header class="navbar1">
+    <nav class="navbar">
+      <div class="logo">
+        <a href="#"><img src="images/forte-logo.png" alt="Logo"></a>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Shop</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">My Acoount</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+      <button id="modal-btn" class="modal-btn">Login</button>
+      
+    </nav>
+  </header>
+  <!-- ------------------------------- -->
+   <!-- logo -->
+  <!-- ------------------------------ -->
+    <div class="grocery-logo">
+      <img  src="images/product1.jpg" alt="">
+    </div>
+
+    <!-- -------------------------- -->
+    <!-- grocery category -->
+    <!-- --------------------------- -->
+<main class="main-category">   
+    <div class="category-selection">
+     <h3>Filter</h3>
+        <div class="category-btn">
+          <button>Reset</button>
+          <button class="apply-btn">Apply</button>
+        </div>
+        <div class="categories">
+          <p>Categories</p>
+          <ul>
+            <li>
+              <input type="checkbox" id="category1" name="category1">
+              Organic Rice
+            </li>
+            <li>
+              <input type="checkbox" id="category2" name="category2">
+              Organic Flours
+            </li>
+            <li>
+              <input type="checkbox" id="category3" name="category3">
+              Organic Pulses
+            </li>
+            <li>
+              <input type="checkbox" id="category4" name="category4">
+              Organic Spices
+            </li>
+            <li>
+              <input type="checkbox" id="category5" name="category5">
+              Cold Pressed Oils
+            </li>
+            <li>
+              <input type="checkbox" id="category6" name="category5">
+            Ghee
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <p>Price</p>
+          <input type="range" min="0" max="100" value="50" class="slider" id="mySlider">
+          <label for=""></label>
+        </div>
+        <div class="categories">
+          <p>Weight</p>
+          <ul>
+            <li>
+              <input type="checkbox" id="category1" name="category1">
+            250gm
+            </li>
+            <li>
+              <input type="checkbox" id="category2" name="category2">
+              500gm
+            </li>
+            <li>
+              <input type="checkbox" id="category3" name="category3">
+            1kg
+            </li>
+            <li>
+              <input type="checkbox" id="category4" name="category4">
+              5kg
+            </li>
+            <li>
+              <input type="checkbox" id="category5" name="category5">
+            1ltr
+            </li>
+          </ul>
+        </div>
+  </div>    
+<!-- ------------------------------------ -->
+  <!-- groceries product card -->
+  <!--------------------------------------  -->
+    <section>
+
+        <h1 class="heading"> Groceries</h1>
+      
+        <div id="card-container"></div>
+        
+      </section>
+    </main>        
+</body>
+</html>

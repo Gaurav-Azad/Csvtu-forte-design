@@ -1,0 +1,45 @@
+[
+    {
+      "title": "Dubraj Rice (1 KG)",
+      "description": "Dubraj is a variety of rice. It is an aromatic short to medium...",
+      "price":"₹116.00",
+      "btn":"Buy Now",
+      "image": "images/rice.jpg",
+      "link": "single_grocery_product.html"
+      
+    },
+    {
+      "title": "Jawaphool Rice (1 KG)",
+      "description": "Our best rice collection is Jawaful. It is a variety of medium...",
+      "price":"₹152.00",
+      "btn":"Buy Now",
+      "image": "images/jawhphul.jpg",
+      "link": "https://example.com/product2"
+    },
+    {
+      "title": "Jawaphool Rice (1 KG)",
+      "description": "Description 3",
+      "price":"₹185.00",
+      "btn":"Buy Now",
+      "image": "images/Vishnu-Bhog-with-pack-compressed-300x300.jpg",
+      "link": "https://example.com/product3"
+    },
+    {
+      "title": "Vishnubhog rice(1 KG)",
+      "description": "Description 4",
+      "price":"₹145.00",
+      "btn":"Buy Now",
+      "image": "images/rice.jpg",
+      "link": "https://example.com/product4"
+    },
+    {
+      "title": "Vishnubhog rice(1 KG)",
+      "description": "Description 5",
+      "price":"₹116.00",
+      "btn":"Buy Now",
+      "image": "images/Vishnu-Bhog-with-pack-compressed-300x300.jpg",
+      "link": "https://example.com/product5"
+    }
+   
+  ]
+  
